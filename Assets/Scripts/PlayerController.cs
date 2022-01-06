@@ -27,6 +27,7 @@ public class PlayerController : MonoBehaviour
         _body = GetComponent<Rigidbody>();
         jumpActionReference.action.performed += OnJump;
         sprintActionReference.action.performed += OnSprint;
+        sprintActionReference.action.canceled += OnSprint;
     }
 
     // Update is called once per frame
