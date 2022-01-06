@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637770119502077164
-    m_Hash: 2696314132
+      ticks: 637770799407547795
+    m_Hash: 326920322
   m_LockFileStatus:
     m_FilePath: D:/Uni/GithubRepos/Run-Like-Wild-Horses-Run/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637770119502487028
-    m_Hash: 3890163057
+      ticks: 637770799408277565
+    m_Hash: 1244928019
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -148,12 +148,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.15.4
     nextVersion: 
-- packageId: com.unity.ide.rider@3.0.7
+- packageId: com.unity.ide.rider@3.0.9
   testable: 0
   isDirectDependency: 1
-  version: 3.0.7
+  version: 3.0.9
   source: 1
-  resolvedPath: D:\Uni\GithubRepos\Run-Like-Wild-Horses-Run\Library\PackageCache\com.unity.ide.rider@3.0.7
+  resolvedPath: D:\Uni\GithubRepos\Run-Like-Wild-Horses-Run\Library\PackageCache\com.unity.ide.rider@3.0.9
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -216,13 +216,13 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637572251600000000
+  datePublishedTicks: 637762012950000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: 3007c42a679bbe2c082c276e8d79279110964553
+    revision: bbc029723f4d157f759dba0f2d438dfcec2e73eb
     path: 
   unityLifecycle:
     version: 3.0.7
