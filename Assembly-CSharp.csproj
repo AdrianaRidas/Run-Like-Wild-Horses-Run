@@ -43,6 +43,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Taggable.cs" />
      <Compile Include="Assets\Scripts\Marker.cs" />
+     <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Reference Include="UnityEngine">
      <HintPath>D:\Unity Editor\2021.2.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>

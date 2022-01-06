@@ -49,10 +49,8 @@ public class Marker : MonoBehaviour
                 var x = (int) (_touchPos.x * _taggable.textureSize.x - (_penSize / 2));
                 var y = (int) (_touchPos.y * _taggable.textureSize.y - (_penSize / 2));
 
-                if (y < 0 || y > _taggable.textureSize.y || x < 0 || x > _taggable.textureSize.x)
-                {
-                    return;
-                }
+                if (y < 0 || y > _taggable.textureSize.y || x < 0 || x > _taggable.textureSize.x) return;
+
 
                 if (_touchedLastFrame)
                 {

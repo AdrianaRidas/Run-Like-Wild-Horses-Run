@@ -233,6 +233,7 @@ GameObject:
   - component: {fileID: 238358761}
   - component: {fileID: 238358763}
   - component: {fileID: 238358764}
+  - component: {fileID: 238358765}
   m_Layer: 3
   m_Name: XR Origin
   m_TagString: Untagged
@@ -286,7 +287,7 @@ CapsuleCollider:
   m_Radius: 0.29
   m_Height: 1.23
   m_Direction: 1
-  m_Center: {x: 0, y: 0.36, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &238358764
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -303,6 +304,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &238358765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238358760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e1ac3567f024ab4a847a9d56169d891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveProviderReference: {fileID: 352937385}
+  jumpActionReference: {fileID: 894437849071374000, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  sprintActionReference: {fileID: 1136797551900971724, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  jumpForce: 200
+  sprintSpeed: 5
 --- !u!1 &352937383
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,7 +353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 352937386}
-  m_TurnSpeed: 60
+  m_TurnSpeed: 80
   m_LeftHandTurnAction:
     m_UseReference: 0
     m_Action:
@@ -373,7 +391,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 352937386}
-  m_MoveSpeed: 1
+  m_MoveSpeed: 2
   m_EnableStrafe: 1
   m_UseGravity: 1
   m_GravityApplicationMode: 0
