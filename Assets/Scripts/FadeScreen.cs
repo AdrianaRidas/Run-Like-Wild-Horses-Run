@@ -1,6 +1,6 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+
 
 
 public class FadeScreen : MonoBehaviour
@@ -26,12 +26,6 @@ public class FadeScreen : MonoBehaviour
     public void FadeOut()
     {
         Fade(0,1);
-    }
-
-    public void SceneOut()
-    {
-        FadeOut();
-        SceneManager.LoadScene("MainScene");
     }
 
     public void Fade(float alphaIn, float alphaOut)
