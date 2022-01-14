@@ -11,23 +11,40 @@ public class PlayerController : MonoBehaviour
     private ActionBasedContinuousMoveProvider moveProviderReference;
     [SerializeField] private InputActionReference jumpActionReference;
     [SerializeField] private InputActionReference sprintActionReference;
+    [SerializeField] private InputActionReference pauseMenuReference;
     [SerializeField] private float jumpForce = 500.0f;
     [SerializeField] private float sprintSpeed = 5.0f;
+
+    public GameObject pauseMenu;
 
     private Rigidbody _body;
     private bool _sprinting = false;
     private bool _canJump = true;
+    private bool _menu = false;
 
 
     void Start()
     {
         _body = GetComponent<Rigidbody>();
+        pauseMenuReference.action.performed += PauseMenu;
         jumpActionReference.action.performed += OnJump;
         sprintActionReference.action.performed += OnSprint;
         sprintActionReference.action.canceled += OnSprint;
     }
-    
 
+    public void PauseMenu(InputAction.CallbackContext obj)
+    {
+        if (_menu)
+        {
+            _menu = false;
+            pauseMenu.SetActive(false);
+            Time.timeScale = 1;
+            return;
+        }
+        Time.timeScale = 0;
+        _menu = true;
+        pauseMenu.SetActive(true);
+    }
     private void OnJump(InputAction.CallbackContext obj)
     {
         if (!_canJump) return;

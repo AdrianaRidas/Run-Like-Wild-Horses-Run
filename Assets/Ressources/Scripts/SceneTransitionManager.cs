@@ -9,11 +9,13 @@ public class SceneTransitionManager : MonoBehaviour
 
     public void GoToScene(int sceneIndex)
     {
+        Time.timeScale = 1;
         StartCoroutine(GoToSceneRoutine(sceneIndex));
     }
 
     IEnumerator GoToSceneRoutine(int sceneIndex)
     {
+        
         fadeScreen.FadeOut();
         yield return new WaitForSeconds(fadeScreen.fadeDuration);
         SceneManager.LoadScene(sceneIndex);
