@@ -16,12 +16,9 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody _body;
     private bool _sprinting = false;
+    private bool _canJump = true;
 
-    /* Cant jump outside starting zone, not yet sure why
-    private bool IsGrounded => Physics.Raycast(
-        new Vector2(transform.position.x, transform.position.y + 2.0f), Vector3.down, 2.0f); 
-    */
-    
+
     void Start()
     {
         _body = GetComponent<Rigidbody>();
@@ -29,17 +26,14 @@ public class PlayerController : MonoBehaviour
         sprintActionReference.action.performed += OnSprint;
         sprintActionReference.action.canceled += OnSprint;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 
     private void OnJump(InputAction.CallbackContext obj)
     {
-        //if (!IsGrounded) return;
+        if (!_canJump) return;
         _body.AddForce(Vector3.up * jumpForce);
+        _canJump = false;
+        StartCoroutine(DelayJump(0.7f));
     }
 
     private void OnSprint(InputAction.CallbackContext obj)
@@ -55,5 +49,11 @@ public class PlayerController : MonoBehaviour
             _sprinting = false;
         }
 
+    }
+
+    IEnumerator DelayJump(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        _canJump = true;
     }
 }
