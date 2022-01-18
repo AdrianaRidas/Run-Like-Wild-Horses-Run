@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7715866518079815383}
   - component: {fileID: 7715866518079815382}
   - component: {fileID: 7715866518079815381}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,7 +109,7 @@ GameObject:
   - component: {fileID: 7715866518367354479}
   - component: {fileID: 7715866518367354473}
   - component: {fileID: 7715866518367354472}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Marker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -291,7 +291,7 @@ GameObject:
   - component: {fileID: 7715866518792074798}
   - component: {fileID: 7715866518792074797}
   - component: {fileID: 7715866518792074796}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -385,7 +385,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7715866518982782433}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grab Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
