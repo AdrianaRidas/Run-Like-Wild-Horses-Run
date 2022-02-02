@@ -1,14 +1,13 @@
 using System.Collections;
-using UnityEditor.Animations;
+
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.UIElements;
 
 public class NPCFollow : MonoBehaviour
 {
     //Transform that NPC has to follow
     public Transform transformToFollow;
-    public AnimatorController postDelayAnimation;
+    public RuntimeAnimatorController postDelayAnimation;
     public float delay = 15f;
     //NavMesh Agent variable
     NavMeshAgent _agent;

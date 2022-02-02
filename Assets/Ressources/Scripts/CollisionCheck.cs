@@ -1,4 +1,3 @@
-using UnityEditor.Animations;
 using UnityEngine;
 
 
@@ -6,7 +5,7 @@ public class CollisionCheck : MonoBehaviour
 {
     public GameObject menu;
     public GameObject moveScript;
-    public AnimatorController postCollisionAnimation;
+    public RuntimeAnimatorController postCollisionAnimation;
     void OnCollisionEnter(Collision collision)
     {
         
