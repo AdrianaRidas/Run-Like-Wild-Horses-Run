@@ -83,6 +83,8 @@
      <Compile Include="Assets\Ressources\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
      <Compile Include="Assets\Ressources\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\Ressources\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+     <Compile Include="Assets\Ressources\Scripts\TimedEvents.cs" />
+     <Compile Include="Assets\Ressources\Scripts\GlideController.cs" />
      <None Include="Assets\Ressources\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Ressources\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Ressources\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -90,10 +92,7 @@
      <None Include="Assets\Ressources\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
      <None Include="Assets\Ressources\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\Ressources\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-     <None Include="Assets\Ressources\Prefabs\NPCS\FanMale\FanMale.json" />
      <None Include="Assets\Ressources\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-     <None Include="Assets\Ressources\Prefabs\NPCS\FanFemale\FanFemale.json" />
-     <None Include="Assets\Ressources\Prefabs\NPCS\Kontrolletti\Kontrolletti.json" />
      <None Include="Assets\Ressources\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <None Include="Assets\Ressources\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\Ressources\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -102,7 +101,6 @@
      <None Include="Assets\Ressources\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\Ressources\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\Ressources\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-     <None Include="Assets\Ressources\Prefabs\NPCS\GorillaFan\UgahUgah.json" />
      <None Include="Assets\Ressources\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\Ressources\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\Ressources\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />

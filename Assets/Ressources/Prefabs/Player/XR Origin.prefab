@@ -1060,7 +1060,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1596286038380319824}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.27, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1133,8 +1133,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.29
-  m_Height: 1.23
+  m_Radius: 0.47
+  m_Height: 1.56
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1596286038597289784
@@ -1149,7 +1149,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
@@ -1168,8 +1168,10 @@ MonoBehaviour:
   moveProviderReference: {fileID: 0}
   jumpActionReference: {fileID: 894437849071374000, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   sprintActionReference: {fileID: 1136797551900971724, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  pauseMenuReference: {fileID: 9056655395219301603, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   jumpForce: 200
   sprintSpeed: 5
+  pauseMenu: {fileID: 0}
 --- !u!1 &1596286038922099365
 GameObject:
   m_ObjectHideFlags: 0
