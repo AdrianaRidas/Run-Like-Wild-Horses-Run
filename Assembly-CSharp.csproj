@@ -47,6 +47,7 @@
      <Compile Include="Assets\Ressources\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
      <Compile Include="Assets\Ressources\Scripts\Taggable.cs" />
      <Compile Include="Assets\Ressources\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+     <Compile Include="Assets\Ressources\Scripts\GlideController.cs" />
      <Compile Include="Assets\Ressources\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
      <Compile Include="Assets\Ressources\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
      <Compile Include="Assets\Ressources\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
@@ -84,7 +85,7 @@
      <Compile Include="Assets\Ressources\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\Ressources\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\Ressources\Scripts\TimedEvents.cs" />
-     <Compile Include="Assets\Ressources\Scripts\GlideController.cs" />
+     <Compile Include="Assets\Ressources\Scripts\CollisionCheckBahn.cs" />
      <None Include="Assets\Ressources\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Ressources\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Ressources\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
