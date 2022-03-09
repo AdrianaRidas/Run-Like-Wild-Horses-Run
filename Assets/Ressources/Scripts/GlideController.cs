@@ -1,12 +1,16 @@
 using System.Collections;
+using System.Numerics;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Vector3 = UnityEngine.Vector3;
 
 public class GlideController : MonoBehaviour {
     public float speed;
  
     [SerializeField] Vector3 destination;
+    [SerializeField] GameObject _player;
+    [SerializeField] private GameObject _menu;
     public SceneTransitionManager transitionManager;
     private bool _doors = true;
     
@@ -52,7 +56,20 @@ public class GlideController : MonoBehaviour {
         }
 
         yield return new WaitForSeconds(2);
-        transitionManager.GoToScene(3);
+        
+        Vector3 playerpos = _player.transform.position;
+        if (playerpos.z < -6)
+        {
+            transitionManager.GoToScene(3);
+        }
+        else
+        {
+            _doors = true;
+            destination = new Vector3(300, 0, 0);
+            yield return new WaitForSeconds(11);
+            _menu.SetActive(true);
+
+        }
 
     }
 }

@@ -1,18 +1,31 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+
 
 public class CollisionCheckBahn : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public AudioClip fahrkarten;
+    public SceneTransitionManager SceneTransitionManager;
 
-    // Update is called once per frame
-    void Update()
+    public RuntimeAnimatorController postCollisionAnimation;
+    void OnCollisionEnter(Collision collision)
     {
         
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Animator animator = gameObject.GetComponent<Animator>();
+            animator.runtimeAnimatorController = postCollisionAnimation;
+            GetComponent<NPCFollow>().enabled = false;
+            GetComponent<AudioSource>().clip = fahrkarten;
+            GetComponent<AudioSource>().Play();
+            StartCoroutine(NextScene());
+
+        }
+        IEnumerator NextScene()
+        {
+            yield return new WaitForSeconds(6);
+            SceneTransitionManager.GoToScene(2);
+            
+        }
     }
 }
