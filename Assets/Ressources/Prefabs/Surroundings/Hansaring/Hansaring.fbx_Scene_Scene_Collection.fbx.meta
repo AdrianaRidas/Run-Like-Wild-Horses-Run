@@ -3,122 +3,7 @@ guid: c5ccd40edbec14a16a82c1c4480975cf
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Bank
-    second: {fileID: 2100000, guid: b35d5b60d71cf487da59d8ae51a1e5e9, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Dach
-    second: {fileID: 2100000, guid: d0d4759b94280114088ac3cc8159de63, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Dach.001
-    second: {fileID: 2100000, guid: fbfa4c400ce7b437da4058c8c92ed587, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material
-    second: {fileID: 2100000, guid: c06c4bdcc929041a5a0f45efeedf1bd6, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.001
-    second: {fileID: 2100000, guid: e5e92769e20624a9a9b79a7b7642e073, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.003
-    second: {fileID: 2100000, guid: d1ce1a30553c74bbdbe3ddf1bf661b74, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.005
-    second: {fileID: 2100000, guid: 3f45dbd999b644b48a37ce36d7f55353, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.007
-    second: {fileID: 2100000, guid: 431e26331a4b842bc8ac1e04f76d8256, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.009
-    second: {fileID: 2100000, guid: c97c54c73c397488fbe851e86f1ef91f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Muelleimer
-    second: {fileID: 2100000, guid: 64410528cb3764dbd982a63aed81c37f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Saeulen
-    second: {fileID: 2100000, guid: d502c1e295cca4538934c2f437b0ed67, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Streben
-    second: {fileID: 2100000, guid: 97a987b7afb694909a42c3429eef84c7, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Streben.001
-    second: {fileID: 2100000, guid: ec4d9b65baf23416185994b2a5125217, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Streben.002
-    second: {fileID: 2100000, guid: 8e3dd4f89210e4c7db2ebdb00662fb2f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Streben.005
-    second: {fileID: 2100000, guid: b3182c0576896429099f51ceb803fcfc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Streben.006
-    second: {fileID: 2100000, guid: 687066dcacf62463392864949f01a27e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Streben.007
-    second: {fileID: 2100000, guid: 42491f7f51f504b139c9579f88dbf415, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gleis
-    second: {fileID: 2100000, guid: d28b8c118c7fb42558fe9d3ed4c8b7a6, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gleis.001
-    second: {fileID: 2100000, guid: e10419146a2b04da982527050b06a692, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gleis.002
-    second: {fileID: 2100000, guid: a5cccba078bb5486ebdeac36fe95456f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gleis.005
-    second: {fileID: 2100000, guid: 025cf062edb8a495f980fb7cf387a8f4, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gleis.006
-    second: {fileID: 2100000, guid: a59f3cdd6f14846c69d1def389371759, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gleis.007
-    second: {fileID: 2100000, guid: f8263f5d923b44d7f92204f72cda45bc, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -152,7 +37,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1
