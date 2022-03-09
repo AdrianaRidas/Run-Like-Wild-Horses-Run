@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private InputActionReference pauseMenuReference;
     [SerializeField] private float jumpForce = 500.0f;
     [SerializeField] private float sprintSpeed = 5.0f;
+    [SerializeField] private GameObject _gameover;
 
     public GameObject pauseMenu;
 
@@ -40,9 +41,13 @@ public class PlayerController : MonoBehaviour
             Time.timeScale = 1;
             return;
         }
-        Time.timeScale = 0;
-        _menu = true;
-        pauseMenu.SetActive(true);
+
+        if (!_gameover.activeSelf)
+        {
+            Time.timeScale = 0;
+            _menu = true;
+            pauseMenu.SetActive(true);
+        }
     }
     private void OnJump(InputAction.CallbackContext obj)
     {
