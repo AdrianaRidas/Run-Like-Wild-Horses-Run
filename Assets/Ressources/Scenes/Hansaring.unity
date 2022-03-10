@@ -868,6 +868,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1596286038597289785, guid: 0017065c6b78dc24daaa9bfd713cd617, type: 3}
+      propertyPath: _gameover
+      value: 
+      objectReference: {fileID: 2121500492}
+    - target: {fileID: 1596286038597289785, guid: 0017065c6b78dc24daaa9bfd713cd617, type: 3}
       propertyPath: pauseMenu
       value: 
       objectReference: {fileID: 1528170754}

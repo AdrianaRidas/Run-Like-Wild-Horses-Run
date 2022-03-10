@@ -11,11 +11,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private InputActionReference jumpActionReference;
     [SerializeField] private InputActionReference sprintActionReference;
     [SerializeField] private InputActionReference pauseMenuReference;
+    [SerializeField] private InputActionReference sprayReference;
     [SerializeField] private float jumpForce = 500.0f;
     [SerializeField] private float sprintSpeed = 5.0f;
     [SerializeField] private GameObject _gameover;
 
     public GameObject pauseMenu;
+    public GameObject spray;
 
     private Rigidbody _body;
     private bool _sprinting = false;
@@ -30,8 +32,13 @@ public class PlayerController : MonoBehaviour
         jumpActionReference.action.performed += OnJump;
         sprintActionReference.action.performed += OnSprint;
         sprintActionReference.action.canceled += OnSprint;
+        sprayReference.action.performed += OnSpray;
     }
 
+    public void OnSpray(InputAction.CallbackContext obj)
+    {
+        Debug.Log("Sprayed");
+    }
     public void PauseMenu(InputAction.CallbackContext obj)
     {
         if (_menu)
