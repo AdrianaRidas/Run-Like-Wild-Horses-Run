@@ -48,7 +48,7 @@ public class GlideController : MonoBehaviour {
         {
             g.SetActive (false);
         }
-        yield return new WaitForSeconds(15);
+        yield return new WaitForSeconds(10);
         foreach(GameObject g in doorArray)
         {
             g.SetActive(true);

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cf0a06bd-5de5-4bf6-bf4d-ee0b2139668c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Ressources/Basic Motions/AnimationControllers/BasicMotionsIdle.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ressources/Basic Motions/AnimationControllers/BasicMotionsIdle.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ressources/Prefabs/Surroundings/HBFmitKiosk/HBFmitKiosk.fbx_Scene_Scene_Collection.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ressources/Prefabs/Surroundings/HBFmitKiosk/HBFmitKiosk.fbx_Scene_Scene_Collection.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ressources/Prefabs/newNPCS/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ressources/Prefabs/newNPCS/Animations/DanceMariechen.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ressources/Prefabs/newNPCS/Animations/DanceMariechen.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ressources/Prefabs/newNPCS/Animations/DanceSilly.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ressources/Prefabs/newNPCS/Animations/DanceSilly.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ressources/Prefabs/newNPCS/Animations/Drunk.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ressources/Prefabs/newNPCS/Animations/Drunk.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ressources/Prefabs/newNPCS/Animations/DrunkWalking.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ressources/Prefabs/newNPCS/Animations/DrunkWalking.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ressources/Prefabs/newNPCS/drunkfemale/ran4Drunk.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ressources/Prefabs/newNPCS/drunkfemale/ran4Drunk.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ressources/Prefabs/newNPCS/ran5/random5.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ressources/Prefabs/newNPCS/ran5/random5.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ressources/Prefabs/newNPCS/ran6/random6.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ressources/Prefabs/newNPCS/ran6/random6.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ressources/Prefabs/newNPCS/ran7/random7.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ressources/Prefabs/newNPCS/ran7/random7.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ressources/Scenes/CCS.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ressources/Scenes/CCS.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ressources/Scenes/CCS/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ressources/Scenes/CCS/NavMesh.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ressources/Scenes/Hansaring.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ressources/Scenes/Hansaring.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ressources/Scenes/MainScene.scenetemplate" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ressources/Scenes/MainScene.scenetemplate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ressources/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ressources/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ressources/Scripts/GlideController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ressources/Scripts/GlideController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ressources/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ressources/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityBuild/RLWHR_Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UnityBuild/RLWHR_Data/Managed/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityBuild/RLWHR_Data/globalgamemanagers" beforeDir="false" afterPath="$PROJECT_DIR$/UnityBuild/RLWHR_Data/globalgamemanagers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityBuild/RLWHR_Data/globalgamemanagers.assets" beforeDir="false" afterPath="$PROJECT_DIR$/UnityBuild/RLWHR_Data/globalgamemanagers.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityBuild/RLWHR_Data/level0" beforeDir="false" afterPath="$PROJECT_DIR$/UnityBuild/RLWHR_Data/level0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityBuild/RLWHR_Data/level1" beforeDir="false" afterPath="$PROJECT_DIR$/UnityBuild/RLWHR_Data/level1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityBuild/RLWHR_Data/level2" beforeDir="false" afterPath="$PROJECT_DIR$/UnityBuild/RLWHR_Data/level2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityBuild/RLWHR_Data/level3" beforeDir="false" afterPath="$PROJECT_DIR$/UnityBuild/RLWHR_Data/level3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityBuild/RLWHR_Data/resources.assets" beforeDir="false" afterPath="$PROJECT_DIR$/UnityBuild/RLWHR_Data/resources.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityBuild/RLWHR_Data/sharedassets0.assets" beforeDir="false" afterPath="$PROJECT_DIR$/UnityBuild/RLWHR_Data/sharedassets0.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityBuild/RLWHR_Data/sharedassets1.assets" beforeDir="false" afterPath="$PROJECT_DIR$/UnityBuild/RLWHR_Data/sharedassets1.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityBuild/RLWHR_Data/sharedassets2.assets" beforeDir="false" afterPath="$PROJECT_DIR$/UnityBuild/RLWHR_Data/sharedassets2.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityBuild/RLWHR_Data/sharedassets2.assets.resS" beforeDir="false" afterPath="$PROJECT_DIR$/UnityBuild/RLWHR_Data/sharedassets2.assets.resS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityBuild/RLWHR_Data/sharedassets3.assets" beforeDir="false" afterPath="$PROJECT_DIR$/UnityBuild/RLWHR_Data/sharedassets3.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityBuild/RLWHR_Data/sharedassets3.resource" beforeDir="false" afterPath="$PROJECT_DIR$/UnityBuild/RLWHR_Data/sharedassets3.resource" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26eGhhi1w5hDhBlNe7GHgfEJ3uF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf0a06bd-5de5-4bf6-bf4d-ee0b2139668c" name="Changes" comment="" />
+      <created>1647776839803</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647776839803</updated>
+      <workItem from="1647776866880" duration="86000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

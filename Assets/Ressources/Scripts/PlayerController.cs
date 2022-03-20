@@ -32,13 +32,9 @@ public class PlayerController : MonoBehaviour
         jumpActionReference.action.performed += OnJump;
         sprintActionReference.action.performed += OnSprint;
         sprintActionReference.action.canceled += OnSprint;
-        sprayReference.action.performed += OnSpray;
-    }
 
-    public void OnSpray(InputAction.CallbackContext obj)
-    {
-        Debug.Log("Sprayed");
     }
+    
     public void PauseMenu(InputAction.CallbackContext obj)
     {
         if (_menu)

@@ -18,32 +18,32 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Dach.001
-    second: {fileID: 2100000, guid: 027c589563b5f4c4aaa2130049e92528, type: 2}
+    second: {fileID: 2100000, guid: 3cc3dc13963fa4644a4534b9a81e0ae1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Dach.002
-    second: {fileID: 2100000, guid: 3f3a973d598094f8f81c0ae7fe659212, type: 2}
+    second: {fileID: 2100000, guid: 3cc3dc13963fa4644a4534b9a81e0ae1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Dach.003
-    second: {fileID: 2100000, guid: be12dbe9ab9844a58aedacf08669f884, type: 2}
+    second: {fileID: 2100000, guid: 3cc3dc13963fa4644a4534b9a81e0ae1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Dach.004
-    second: {fileID: 2100000, guid: 39b9bb2ffe7ed451d9d758efe699a096, type: 2}
+    second: {fileID: 2100000, guid: 3cc3dc13963fa4644a4534b9a81e0ae1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Dach.005
-    second: {fileID: 2100000, guid: 0cdece5cef81841978a9825c24f9748e, type: 2}
+    second: {fileID: 2100000, guid: 3cc3dc13963fa4644a4534b9a81e0ae1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Dach.006
-    second: {fileID: 2100000, guid: e73f09e94eaa1403e9b51cec29154b49, type: 2}
+    second: {fileID: 2100000, guid: 3cc3dc13963fa4644a4534b9a81e0ae1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -187,7 +187,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1
